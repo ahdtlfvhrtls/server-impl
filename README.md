@@ -25,7 +25,8 @@
    ./gradlew bootRun
 3. 브라우저에서 http://localhost:8080 접속 후 API 테스트
 
-API 주요 경로
+
+## API 주요 경로
 POST /member/register : 회원가입
 
 POST /member/login : 로그인
