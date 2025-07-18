@@ -23,7 +23,7 @@
 2. 프로젝트 빌드 및 실행
    ```bash
    ./gradlew bootRun
-3. 브라우저에서 http://localhost:8080 접속 후 API 테스트
+3. 브라우저에서 기본 포트인 http://localhost:8080 에 각 api 경로 추가
 
 
 ## API 주요 경로
