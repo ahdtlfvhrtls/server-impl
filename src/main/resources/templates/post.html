@@ -1,0 +1,29 @@
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>게시판</title>
+    <link rel="stylesheet" href="/css/post.css">
+</head>
+<body>
+<div class="container">
+    <h1>게시판</h1>
+
+    <table>
+        <thead>
+        <tr>
+            <th>제목</th>
+            <th>작성자</th>
+            <th>작성일</th>
+        </tr>
+        </thead>
+        <tbody id="postList"></tbody>
+    </table>
+
+    <div class="pagination" id="pagination"></div>
+
+    <button id="writeBtn" class="floating-button">글 작성</button>
+</div>
+
+<script src="/js/post.js"></script>
+</body>
+</html>

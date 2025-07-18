@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    max-width: 400px;
+    margin: 40px auto;
+}
+
+#profileInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 5px 0 10px;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #abc4ff;
+    color: black;
+    cursor: pointer;
+}
+
+#logoutBtn {
+    background-color: #ff7777;
+    color: white;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
